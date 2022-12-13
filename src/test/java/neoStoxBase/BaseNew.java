@@ -17,9 +17,7 @@ public class BaseNew
 	public void launchBrowser() throws InterruptedException, IOException
 	{
 		
-		
-		
-       System.setProperty("webdriver.chrome.driver","D:\\16 July evening Batch\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\16 July evening Batch\\chromedriver.exe");
 	 
       driver= new ChromeDriver();
 	  driver.manage().window().maximize();
