@@ -22,6 +22,8 @@ public class NeoStoxHomePage
 	public NeoStoxHomePage(WebDriver driver)  //constructor name
 	{
 		
+		
+		
 	PageFactory.initElements(driver, this);
 	
 	}
